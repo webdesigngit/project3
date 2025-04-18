@@ -96,7 +96,7 @@ p{
 .remove{
     opacity: 0;
 }
-.marginr{max-height: fit-content;}
+.marginr{max-height: fit-content;margin-bottom: 37px;}
 
 .margint{margin-top: -35px;}
 
