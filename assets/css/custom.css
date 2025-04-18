@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    color: #00000080;
+    letter-spacing: 1px;
+}
+.main{
+    padding: 50px 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.tittle{
+    margin-bottom: 21px;
+}
+.tittle p{
+    text-align: center;
+    font-size: 18px;
+    color: #121212;
+    letter-spacing: 4px;
+    font-weight: 600;
+    max-width: 522px;
+    margin: 0 auto;
+}
+.image-list{
+    display: flex;
+    column-gap: 59px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image{
+    max-width: 203px;
+}
+.image img{    
+    width: 92%;
+}
+
+.main2{
+    padding: 50px 0px;
+    background-color: #ff7b9c33;
+    border-bottom: 3px solid black;
+}
+.page-width{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+.tittle2nd{
+    display: flex;
+    justify-content: center;
+    column-gap: 17px;
+}
+.tittle1{
+    font-size: 58px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #121212;
+    font-family: ;
+}
+.tittle2 img{
+    width: 253px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+}
+.col{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 49%;
+    padding: 20px;
+}
+
+.heading4{
+    font-size: 18px;
+    color: #121212;
+    letter-spacing: 1px;
+}
+.main2para{
+}
+.remove{
+    opacity: 0;
+}
+.marginr{max-height: fit-content;}
+
+.margint{margin-top: -35px;}
+
+.last{background-color: aliceblue;border-bottom: 3px solid black;margin-bottom: 75px;}
+.lastdive{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ldkjaj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 120px;
+    padding: 59px 0px;
+}
+.lastdiv1{}
+.herolast{
+    max-width: 569px;
+    text-align: center;
+}
+.herolast h2{
+    font-size: 46px;
+    color: #121212;
+    letter-spacing: 2px;
+}
+.herolast p{
+    color: #000;
+}
+.herolast a{
+    width: 455px;
+    text-decoration: none;
+    background-color: #01B67A;
+    color: #FFF;
+    padding: 11px 29px;
+    border-radius: 11px;
+    margin-top: 11px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s background-color;
+}
+
+.herolast a:hover{
+    background-color: red;
+}
+.img2025{
+    max-width: 180px;
+    min-height: 280px;
+}
+
+.img2025 img{border-radius: 20px;}
